@@ -340,7 +340,7 @@ a:hover, a:active {
  *****************
  *****************/
 
-#navbar {
+#navBar {
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -349,11 +349,11 @@ a:hover, a:active {
   justify-content: center;
 }
 
-#navbar.bg-active {
+#navBar.bg-active {
   background: #181d23;
 }
 
-#navbar .nav-wrapper {
+#navBar .nav-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -362,7 +362,7 @@ a:hover, a:active {
   padding: 0 2rem;
 }
 
-#navbar .brand {
+#navBar .brand {
   font-size: 1.6rem;
   color: #fafafa;
   cursor: default;
@@ -423,7 +423,7 @@ a:hover, a:active {
 }
 
 @media only screen and (max-width: 849px) {
-  #navbar {
+  #navBar {
     background: #181d23aa;
   }
 }
@@ -769,7 +769,7 @@ a:hover, a:active {
 #about article {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
+  grid-spacer: 1rem;
   padding: 3rem 0;
 }
 
@@ -820,7 +820,7 @@ a:hover, a:active {
 @media only screen and (max-width: 1149px) {
   #about article {
     grid-template-columns: 1fr;
-    grid-gap: 0;
+    grid-spacer: 0;
   }
   #about .desc.full {
     grid-column-end: -1;
@@ -917,7 +917,7 @@ a:hover, a:active {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 2rem;
+  grid-spacer: 2rem;
 }
 
 /* Project Image */

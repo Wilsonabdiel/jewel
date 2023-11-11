@@ -2,26 +2,207 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> Jewel </title>
-  <meta content="#181d23" name="theme-color" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta name="author" content="Abdiel Wilson" />
-  <meta name="description" content="Portfolio Website for Jewel" />
-  <!-- <meta name="keywords" content="portfolio, css, javascript, software, coding, programming, web, development, developer, fullstack, frontend, backend, php,python, CS50 freecodecamp, es2015" /> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
-<link rel="stylesheet" href="./style.css">
+  <title>Jewel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+<!-- <link rel="stylesheet" href="./output.css"> -->
+<link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="app">
+
+<!-- Menu-->
+<nav id="art-menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+     
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collasped">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="https://codepen.io/jvjijith/pen/woMywq">Jewel</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="navbar-collasped">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="scroll-nav">Home</a></li>
+                <li><a href="#about" class="scroll-nav">About</a></li>                            
+                <li><a href="#portfolio" class="scroll-nav">Portfolio</a></li>
+                <li><a href="#contact" class="scroll-nav">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="home" class="text-center">
+    <div class="layer">
+        <div class="content">
+            <h1>Hi I'm  <strong><span>Jewel</span></strong></h1>
+            <p class="par">This is my portfolio.</p>
+            <a href="#about" class="fa fa-angle-down scroll-nav"></a>
+        </div>
+    </div>
 
 </div>
+<!-- About Me Section -->
+<div id="about">
+  <div class="container">
+      <div class="section-title center text-center">
+          <h2><strong>Who is she?</strong></h2>
+          <div class="line"></div>
+      </div>
+      <div class="gap"></div>
+      <div class="row">
+          <div class="col-md-6">
+              <p>Hi there, I’m <strong>Jewel</strong>.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti earum assumenda? Dignissimos quibusdam quae sit dolore tempora doloremque enim ullam accusamus dolorem illo quidem voluptatum consequuntur, deleniti officiis modi, possimus sint tenetur eum velit reprehenderit esse corporis magnam debitis dolor? Veniam nihil laborum eum totam quas ab optio nesciunt commodi temporibus aut consequatur velit maxime nemo enim illum dolore atque pariatur, quo ipsa assumenda aspernatur quisquam itaque qui rem. Soluta sunt optio rem eveniet, consectetur totam quia illo veritatis iure officia eos, saepe, earum alias necessitatibus veniam consequuntur porro nostrum tenetur? Excepturi nemo omnis animi. Deleniti, maiores? Culpa cupiditate doloremque harum minima laborum molestias consequatur amet deserunt, vero voluptatum quibusdam sequi quidem, deleniti omnis consectetur perferendis, quos iure repellat ipsam excepturi quo tempora hic soluta at! Iste a voluptas sequi quae omnis voluptatum consequatur optio est blanditiis repellendus, magni ea officia officiis libero animi dolor harum dolore. Reiciendis qui est iste, ex a, suscipit rerum facilis id ratione veniam, dolorem sapiente hic ea nulla. Voluptatem, itaque aut tempora soluta libero eius dolorem, minus doloremque nostrum esse neque maiores pariatur rerum nemo voluptatibus nulla quo nam quibusdam. Voluptates non in, alias possimus quod facilis sint, minus veniam voluptatum laudantium dolorem.</p>
+          </div>
+          <!-- Add the image source in the src attribute -->
+          <div class="col-md-6">
+              <img src="your-image-source.jpg" alt="Your Alt Text">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12 text-center">
+              <blockquote>
+                  "We cannot solve our problems with the same thinking we used when we created them." - Albert Einstein.
+              </blockquote>
+              <div class="joinjour text-center">
+                  <a href="#contact" class="btn btn-block scroll-nav">Get in touch</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+ <!-- Portfolio --> 
+<!-- <div id="portfolio" class="text-center">
+    <div class="container">
+
+        <div class="section-title center">
+            <h2>My WORKS</h2>
+            <div class="line">
+
+            </div>
+        </div>
+        <div class="gap"></div>
+        <section id="works" class="container">
+
+
+            <ul class="portfolio-items col-4">
+                <li class="portfolio-item apps">
+                    <div class="item-inner">
+                        <img src= alt="">
+                               
+                        <div class="layer">
+                            <a class="preview view" href="IMG_20221031_110935_50 updated "><i class="fa fa-eye"></i></a>
+<h5>ticket booking counter</h5>  
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-item logo apps">
+                    <div class="item-inner">
+                        <img src= alt="">
+                      <div class="layer">
+                            <a class="preview view" href="><i class="fa fa-eye"></i></a>
+                        <h5>bank management system</h5> 
+
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-item logo apps">
+                    <div class="item-inner">
+                        <img src=alt="">
+                      <div class="layer">
+                            <a class="preview view" href=><i class="fa fa-eye"></i></a>
+                        <h5>my poetry website from wordpress with basic starting</h5> 
+                        <div 
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-item logo apps">
+                    <div class="item-inner">
+                        <img src= alt="">
+                      <div class="layer">
+                            <a class="preview view" href=><i class="fa fa-eye"></i></a>
+                        <h5>idk</h5> 
+                        <div class="layer">
+                            <a class="preview view" href=><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>      -->
+
+<!-- contact -->
+<!-- 
+<div id="contact" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Get in Touch</h2>
+            <div class="line">
+
+            </div>
+        </div>
+        <div class="gap"></div>
+        <div class="address">Want to get in touch with me?  just feel free to drop me a line anytime. </div>
+        <div id="contact-form">
+            <div id="message"></div>
+            <form method="post" action="php/contact.php" name="contactform" id="contactform">
+                <input name="name" type="text" id="name"  class="inputForm2" placeholder="Yatharth Mulani"  >
+                <input name="email" type="text" id="email" placeholder="yatharthmulani78@gmail.com">
+                <textarea name="comments"  id="comments" placeholder="Message"  ></textarea>
+                <input type="submit" class="send_message transition" id="submit" value="Send Message" />
+            </form>
+        </div>
+
+
+    </div> -->
+
+
+</div>
+<!-- Footer -->
+<!-- <footer id="footer">
+    <div class="footer-top">
+        <div class="container text-center">
+            <div class="footer-logo">
+                
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li><a class="Linkedin" href="https://www.linkedin.com/in/yatharth-mulani-827524201><i class="fa-linked icon-sm"></i></a></li>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p >&copy; 2023 Yatharth Mulani</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="pull-right">Developed by Yatharth Mulani</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> -->
 <!-- partial -->
-  <script src='https://unpkg.com/react@16/umd/react.production.min.js'></script>
-<script src='https://unpkg.com/react-dom@16/umd/react-dom.production.min.js'></script>
-<script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.0.0/jquery.smooth-scroll.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js'></script><script  src="./app.js"></script>
 
 </body>
 </html>

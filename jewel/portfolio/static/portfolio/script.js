@@ -65,7 +65,7 @@ const Menu = props => {
 const Nav = props => {
   return (
     React.createElement(React.Fragment, null, 
-    React.createElement("nav", { id: "navbar" }, 
+    React.createElement("nav", { id: "navBar" }, 
     React.createElement("div", { className: "nav-wrapper" }, 
     React.createElement("p", { className: "brand" }, "Ja", 
 
