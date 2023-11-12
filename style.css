@@ -8,6 +8,13 @@ body, html{
     overflow-x: hidden;
     background: #2F3238;
 }
+.my-photo{
+    height: 500px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
 h1{
     text-transform: none;
 }
