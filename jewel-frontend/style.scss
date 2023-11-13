@@ -52,13 +52,13 @@ p.par {
 }
 
 a {
-    color: #DE5E60;
+    color: #9b080a;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #DE5E60;
+    color: #9b080a;
 }
 
 ul, ol {
@@ -81,7 +81,7 @@ ul, ol {
 }
 
 .section-title.center .line {
-    border-top: 4px solid #DE5E60;
+    border-top: 4px solid #9b080a;
     height: 10px;
     width: 80px;
     text-align: center;
@@ -113,7 +113,7 @@ ul, ol {
             font-weight: 900;
 
             &:hover {
-                color: #DE5E60;
+                color: #9b080a;
             }
         }
 
@@ -135,8 +135,8 @@ ul, ol {
 
                 &:hover,
                 &:focus {
-                    background-color: #DE5E60;
-                    border-color: #DE5E60;
+                    background-color: #9b080a;
+                    border-color: #9b080a;
 
                     .icon-bar {
                         background-color: #FFF;
@@ -276,7 +276,7 @@ ul, ol {
             background: #26292E;
 
             &:hover {
-                background: #DE5E60;
+                background: #9b080a;
             }
         }
     }
@@ -337,9 +337,9 @@ ul, ol {
         color: #fff;
 
         &:hover {
-            background: #DE5E60;
+            background: #9b080a;
             color: #fff;
-            border: 1px solid #DE5E60;
+            border: 1px solid #9b080a;
         }
     }
 
@@ -371,8 +371,8 @@ ul, ol {
 
         .portfolio-filter .active {
             color: #fff;
-            background-color: #DE5E60;
-            border-color: #DE5E60;
+            background-color: #9b080a;
+            border-color: #9b080a;
         }
 
         .portfolio-items > li {
@@ -476,8 +476,8 @@ ul, ol {
         transition: all 0.5s;
 
         &:hover {
-            color: #DE5E60;
-            border: 2px solid #DE5E60;
+            color: #9b080a;
+            border: 2px solid #9b080a;
         }
     }
 
@@ -548,7 +548,7 @@ ul, ol {
 
                     &:hover {
                         border-radius: 10px;
-                        background-color: #DE5E60;
+                        background-color: #9b080a;
                     }
                 }
             }

@@ -51,13 +51,13 @@ p.par {
 }
 
 a {
-  color: #DE5E60;
+  color: #9b080a;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #DE5E60;
+  color: #9b080a;
 }
 
 ul, ol {
@@ -80,7 +80,7 @@ ul, ol {
 }
 
 .section-title.center .line {
-  border-top: 4px solid #DE5E60;
+  border-top: 4px solid #9b080a;
   height: 10px;
   width: 80px;
   text-align: center;
@@ -111,7 +111,7 @@ ul, ol {
   font-weight: 900;
 }
 #art-menu.navBar-default a.navBar-brand:hover {
-  color: #DE5E60;
+  color: #9b080a;
 }
 #art-menu.navBar-default.navBar-default .navBar-nav > li > a {
   text-transform: uppercase;
@@ -127,8 +127,8 @@ ul, ol {
   border-radius: 0;
 }
 #art-menu.navBar-default.navBar-default .navBar-toggle:hover, #art-menu.navBar-default.navBar-default .navBar-toggle:focus {
-  background-color: #DE5E60;
-  border-color: #DE5E60;
+  background-color: #9b080a;
+  border-color: #9b080a;
 }
 #art-menu.navBar-default.navBar-default .navBar-toggle:hover .icon-bar, #art-menu.navBar-default.navBar-default .navBar-toggle:focus .icon-bar {
   background-color: #FFF;
@@ -212,7 +212,7 @@ margin-bottom:20px;
 
 }
 .joinjour a {
-  background: #DE5E60;
+  background: #9b080a;
   color: #FFFFFF;
   width:140px;
   margin:0 auto;
@@ -311,7 +311,7 @@ border:none;
 }
 #contact form input[type=submit]:hover,
 #contact form .controls button:hover {
-  background: #DE5E60;
+  background: #9b080a;
 }
 #contact .error_message {
   text-align: center;
@@ -362,9 +362,9 @@ border:none;
   color: #fff;
 }
 #portfolio .view:hover {
-  background: #DE5E60;
+  background: #9b080a;
   color: #fff;
-  border: 1px solid #DE5E60;
+  border: 1px solid #9b080a;
 }
 #portfolio #recent-works {
   padding: 90px 0;
@@ -390,8 +390,8 @@ border:none;
 }
 #portfolio #recent-works .portfolio-filter .active {
   color: #fff;
-  background-color: #DE5E60;
-  border-color: #DE5E60;
+  background-color: #9b080a;
+  border-color: #9b080a;
 }
 #portfolio #recent-works .portfolio-items > li {
   float: left;
@@ -479,8 +479,8 @@ border:none;
   transition: all 0.5s;
 }
 #portfolio a.fa.fa-angle-down:hover {
-  color: #DE5E60;
-  border: 2px solid #DE5E60;
+  color: #9b080a;
+  border: 2px solid #9b080a;
 }
 #portfolio .fa {
   display: inline-block;
@@ -544,7 +544,7 @@ border:none;
 }
 #footer .social-icons ul li a:hover {
   border-radius: 10px;
-  background-color: #DE5E60;
+  background-color: #9b080a;
 }
 #footer .social-icons .icon-lg {
   font-size: 48px;
